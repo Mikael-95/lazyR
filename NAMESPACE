@@ -2,6 +2,7 @@
 
 export(abnorm_rm)
 export(boxcox_lam)
+export(dark_kable)
 export(lazy_bar)
 export(lazy_hist)
 export(lazy_interact)
