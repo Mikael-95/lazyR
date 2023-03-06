@@ -33,7 +33,7 @@ reg_assume <- function(model,
   A <- linplot +
     ggplot2::geom_point(col = "#F8766D", size = .5) +
     GridTheme +
-    ggplot2::labs(x = " Observed Reaction Time Value",
+    ggplot2::labs(x = " Observed Value",
                   y = "Residual Value")
 
   varplot <- ggplot2::ggplot(res, ggplot2::aes(x = fitted, y = res))
