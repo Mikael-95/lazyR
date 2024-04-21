@@ -17,4 +17,6 @@ Imports:
     MASS,
     psych,
     stats,
-    utils
+    utils,
+    coda,
+    cat
