@@ -3,7 +3,7 @@
 #' @param samples The sampled values
 #' @param prob Desired probability
 #'
-#' @return
+#' @return the desired HPDI range.
 #' @export
 
 HPDI <- function( samples , prob=0.89 ) {
